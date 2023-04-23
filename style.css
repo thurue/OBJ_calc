@@ -152,16 +152,18 @@ button:hover::before {
 
 @media screen and (max-width: 1400px) {
   .container {
-    width: 80%;
+    width: 90%;
     grid-template-columns: auto;
     top: 100px;
   }
 
   .data {
     max-width: 10000px;
-    display: grid;
-    grid-template-columns: auto auto auto ;
+    display: inline-grid;
+    grid-template-columns: auto auto ;
     gap: 50px;
+    padding: 20px;
+    justify-content: center;
   }
 
 }
