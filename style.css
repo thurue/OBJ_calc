@@ -18,6 +18,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   gap: 50px;
+  transition: all .4s;
 }
 
 
@@ -26,6 +27,7 @@ body {
   display: grid;
   grid-template-columns: auto auto;
   gap: 50px;
+  transition: all .4s;
 }
 
 .input {
@@ -169,8 +171,9 @@ button:hover::before {
     width: 80%;
     grid-template-columns: auto;
     top: 50px;
-  }
 
+  }
+  
   .data {
     max-width: 10000px;
     display: inline-grid;
@@ -178,6 +181,10 @@ button:hover::before {
     gap: 50px;
     padding: 20px;
     justify-content: center;
-  }
 
+  }
+.media{
+  font-size: 40px;
+
+}
 }
