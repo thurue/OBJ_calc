@@ -77,8 +77,7 @@ function media() {
     var MP = (nPE * 3 + MSR + nATV) / 5
 
     let h1 = document.getElementsByClassName("media")[0]
-    h1.textContent = MP.toFixed(2)
-
+    h1.textContent = MP.toFixed(3)
 }
 
 
