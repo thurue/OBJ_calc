@@ -10,7 +10,7 @@ function changePE() {
 
     console.log(PE)
     return nPE = PE
-}
+}    
 function changeSIM1() {
     var SIM1 = 0
     let input = document.getElementsByClassName("SIM1")[0]
